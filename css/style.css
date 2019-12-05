@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Head Section Start Here*/
+
+.head{}
+.header{
+    max-width:1100px;
+    margin:0 auto;
+}
+.head .header .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.logo{
+    max-width:30%;
+    flex-basis: 30%;
+    padding-top: 9px;
+}
+.logo span{
+    font-weight: 600;
+    font-size: 30px;
+}
+.menu{
+    max-width:70%;
+    flex-basis:70%;
+    padding-top:7px;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.menu ul li{
+    padding-left:60px; 
+    padding-top: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color: black;
+    opacity: 80%;
+}
+.menu ul li:nth-child(5){
+    padding-right: 40px;
+}
+.menu ul li:nth-child(6){
+    background-color: #00A3DF;
+   padding:10px 20px;
+    border-radius:20px;
+     padding-top: none;
+    color:white;
+    
+}
+font{
+    color: white;
+    opacity: 100%;
+}
+
+/*Head Finish*/
+
+/*Banner Start*/
+
+.banner{}
+.banner-section{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.banner .banner-section .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+.banner-data{
+    max-width: 20%;
+    flex-basis: 20%;
+    padding-top: 200px;
+}
+.banner-data h1{
+    padding-bottom: 20px;
+    font-size:25px
+}
+.banner-data p{
+    padding-bottom: 40px;
+    opacity: 80%;
+    font-family: cursive;
+}
+.banner-data span{
+    background-color: #00A3DF;
+    padding: 10px 20px;
+    border-radius:20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner-img{
+    flex-basis: 80%;
+    max-width: 80%;
+     background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    width:100%;
+    height:600px;
+    background-size:contain;
+}
+
+/*Banner Finish*/
